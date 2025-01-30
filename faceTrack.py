@@ -4,7 +4,7 @@ import numpy as np
 # Load OpenCV's pre-trained face detector
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 
-# Open the defauly webCam
+# Open the default webCam
 cap = cv2.VideoCapture(0)
 
 if not cap.isOpened():
